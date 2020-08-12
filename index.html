@@ -9,6 +9,8 @@
       name="description"
       content="Stay at home quarantine to stop Coronavirus"
     />
+    <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -48,14 +50,14 @@
           There is no specific medicine to prevent or treat coronavirus disease
           (COVID-19). People may need supportive care to.
         </p>
-        <button type="button">Let Us Help</button>
+        <a href="#help">Let Us Help</a>      
         <img src="./images/hero-image.png" alt="Girl sitting on the couch" />
       </section>
 
       <!-- About us section -->
       <section>
         <img src="./images/about-us.png" alt="Red, green and yellow virus" />
-        <h2>What Is Covid-19</h2>
+        <h2 id="help">What Is Covid-19</h2>
         <h3>Coronavirus</h3>
         <p>
           Corona viruses are a type of virus. There are many different kinds,
@@ -194,7 +196,7 @@
         <!-- Search block -->
         <form action="#">
           <input type="text" placeholder="Search" name="search" />
-          <button type="submit"><img src="./images/search-icon.svg" alt="Search button"></button>
+          <button type="submit"><i class="fa fa-search"></i></button>
         </form>
 
         <!-- Map image -->
